@@ -16,5 +16,8 @@ with open('stepik6.txt', 'r') as inf, open('out6.txt', 'w') as ouf:
             ouf.write(str(avg(li[1:])))
             ouf.write('\n')
     ouf.write(str(avg(li1)))
+    ouf.write(' ')
     ouf.write(str(avg(li2)))
+    ouf.write(' ')
     ouf.write(str(avg(li3)))
+    ouf.write(' ')
